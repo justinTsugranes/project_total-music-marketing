@@ -22,6 +22,8 @@ const GetStarted = () => (
           src="/images/get-started.webp"
           alt="get-started"
           className="h-[90%] w-[90%] object-contain"
+          height={200}
+          width={200}
         />
       </motion.div>
       <motion.div

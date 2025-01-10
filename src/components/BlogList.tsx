@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import {ArrowUpRightIcon} from '@heroicons/react/24/solid'
 import {Post} from 'typings'
-import urlFor from 'lib/urlFor'
+import {urlFor} from '../../lib'
 import ClientSideRoute from './ClientSideRoute'
 
 type Props = {

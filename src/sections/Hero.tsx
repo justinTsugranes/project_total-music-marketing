@@ -45,6 +45,8 @@ const Hero = () => (
               src="/stamp.webp"
               alt="stamp"
               className="h-[100px] w-[100px] object-contain sm:h-[155px] sm:w-[155px]"
+              height={200}
+              width={200}
             />
           </div>
         </a>

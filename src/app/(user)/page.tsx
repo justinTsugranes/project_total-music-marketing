@@ -1,7 +1,7 @@
 import {previewData} from 'next/headers'
 import {groq} from 'next-sanity'
-import {sanityClient} from '../../../lib/sanity.client'
-import {BlogList, PreviewSuspense, PreviewBlogList} from '../../components'
+import {sanityClient} from '../../../lib'
+import {Banner, BlogList, PreviewSuspense, PreviewBlogList} from '@/components'
 import {About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew, World} from '../../sections'
 
 const query = groq`
@@ -35,8 +35,31 @@ export default async function Home() {
 
   return (
     <div>
-      <About />
-      <BlogList posts={posts} />
+      <div className="relative ">
+        <Banner />
+      </div>
+
+      <div className="relative">
+        <About />
+        <div className="gradient-03 z-0" />
+        <Explore />
+        <div className="gradient-04 z-0" />
+      </div>
+
+      <div className="relative">
+        <GetStarted />
+        <div className="gradient-04 z-0" />
+        <WhatsNew />
+      </div>
+
+      <World />
+
+      <div className="relative">
+        <Insights />
+        <BlogList posts={posts} />
+        <div className="gradient-04 z-0" />
+        <Feedback />
+      </div>
     </div>
   )
 }

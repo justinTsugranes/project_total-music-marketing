@@ -1,7 +1,7 @@
 'use client'
 
 import {definePreview} from 'next-sanity/preview'
-import {projectId, dataset} from './sanity.client'
+import {nextAppSanityProjectId as projectId, nextAppSanityDataset as dataset} from '../environment'
 
 function onPublicAccessOnly() {
   throw new Error(`This page is not available in preview mode`)

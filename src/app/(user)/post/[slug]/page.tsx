@@ -1,9 +1,8 @@
 import Image from 'next/image'
 import {groq} from 'next-sanity'
 import {PortableText} from '@portabletext/react'
-import {RichTextComponents} from '../../../../components/RichTextComponents'
-import urlFor from '../../../../../lib/urlFor'
-import {sanityClient} from '../../../../../lib/sanity.client'
+import {RichTextComponents} from '@/components/RichTextComponents'
+import {urlFor, sanityClient} from '../../../../../lib'
 
 type Props = {
   params: {

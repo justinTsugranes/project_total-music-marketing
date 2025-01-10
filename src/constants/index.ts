@@ -88,34 +88,4 @@ export const socials = [
     image: '/images/facebook.svg',
     url: 'https://facebook.com/the.lightning.realm',
   },
-  // {
-  //   name: 'linktree',
-  //   image: '/images/linktree.svg',
-  //   url: 'https://linktree.com/thelightningrealm',
-  // },
-  // {
-  //   name: 'medium',
-  //   image: '/images/medium.svg',
-  //   url: 'https://medium.com/the.lightning.realm',
-  // },
-  // {
-  //   name: 'dev.to',
-  //   image: '/images/dev.to.svg',
-  //   url: 'https://dev.to.com/the.lightning.realm',
-  // },
-  // {
-  //   name: 'hashnode',
-  //   image: '/images/hashnode.svg',
-  //   url: 'https://hashnode.com/the.lightning.realm',
-  // },
-  // {
-  //   name: 'twitch',
-  //   image: '/images/twitch.svg',
-  //   url: 'https://twitch.com/the.lightning.realm',
-  // },
-  // {
-  //   name: 'github',
-  //   image: '/images/github.svg',
-  //   url: 'https://github.com/the.lightning.realm',
-  // },
 ]
